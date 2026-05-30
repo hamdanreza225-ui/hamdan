@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Muh. Tawakkal</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    color:#38bdf8;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2.2rem;
+    color:#38bdf8;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.info p{
+    margin:10px 0;
+}
+
+.timeline{
+    border-left:3px solid #38bdf8;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:30px;
+}
+
+.timeline-item h3{
+    color:#38bdf8;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.skill{
+    background:#38bdf8;
+    color:white;
+    padding:10px 20px;
+    border-radius:30px;
+}
+
+footer{
+    background:#020617;
+    text-align:center;
+    padding:25px;
+    color:#94a3b8;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+@media(max-width:768px){
+.hero h1{
+    font-size:2.8rem;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero container">
+        <h1>Muh. Tawakkal</h1>
+        <h2>Mahasiswa | Future Feed Technology Specialist</h2>
+        <p>
+            Mahasiswa yang memiliki minat besar dalam inovasi teknologi,
+            pengembangan sumber daya peternakan, dan transformasi digital.
+            Berkomitmen untuk menciptakan solusi berkelanjutan yang mampu
+            meningkatkan produktivitas dan kesejahteraan masyarakat.
+        </p>
+        <a href="#about" class="btn">Lihat Profil</a>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">Tentang Saya</h2>
+
+        <div class="card info">
+            <p><strong>Nama:</strong> Muh. Tawakkal</p>
+            <p><strong>Jenis Kelamin:</strong> Pria</p>
+            <p><strong>Status:</strong> Mahasiswa</p>
+            <p><strong>Domisili:</strong> Makassar, Indonesia</p>
+            <p><strong>Email:</strong> tawakkal.portfolio@email.com</p>
+            <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+
+            <br>
+
+            <p>
+                Saya adalah mahasiswa yang aktif dalam berbagai proyek
+                pengembangan teknologi dan kewirausahaan. Memiliki ketertarikan
+                pada bidang teknologi pakan ternak, data digital, desain
+                produk, serta manajemen proyek. Saya percaya bahwa inovasi
+                lahir dari kombinasi ilmu pengetahuan, kreativitas, dan
+                kolaborasi.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Keahlian</h2>
+
+        <div class="skills">
+            <div class="skill">Leadership</div>
+            <div class="skill">Public Speaking</div>
+            <div class="skill">Project Management</div>
+            <div class="skill">Web Development</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Digital Marketing</div>
+            <div class="skill">Research & Innovation</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Pengalaman Kerja</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>Research Assistant Intern</h3>
+                <p>AgriTech Innovation Center (2024 - Sekarang)</p>
+                <p>
+                    Membantu pengembangan sistem monitoring kualitas pakan
+                    berbasis teknologi digital dan melakukan analisis data
+                    penelitian.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Digital Marketing Staff</h3>
+                <p>NutriFarm Indonesia (2023 - 2024)</p>
+                <p>
+                    Mengelola kampanye pemasaran digital dan meningkatkan
+                    engagement media sosial hingga 70%.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Project Coordinator</h3>
+                <p>Young Innovation Community (2022 - 2023)</p>
+                <p>
+                    Memimpin tim lintas divisi dalam pengembangan program
+                    inovasi mahasiswa tingkat nasional.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Pencapaian & Karier</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Best Young Innovator 2025</h3>
+                <p>
+                    Penghargaan atas kontribusi dalam pengembangan teknologi
+                    pakan berkelanjutan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Juara 1 Kompetisi Startup Mahasiswa</h3>
+                <p>
+                    Menciptakan konsep platform digital untuk optimalisasi
+                    manajemen peternakan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>International Student Exchange</h3>
+                <p>
+                    Terpilih sebagai delegasi mahasiswa dalam program
+                    pertukaran akademik Asia Tenggara.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Future Career Goal</h3>
+                <p>
+                    Menjadi konsultan teknologi peternakan dan pendiri startup
+                    agritech berskala internasional.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Proyek Portofolio</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Smart Feed System</h3>
+                <p>
+                    Sistem monitoring pakan ternak berbasis IoT untuk
+                    meningkatkan efisiensi produksi.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Farm Analytics Dashboard</h3>
+                <p>
+                    Dashboard analitik untuk memantau performa peternakan
+                    secara real-time.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Feed Formula Calculator</h3>
+                <p>
+                    Aplikasi sederhana untuk membantu formulasi pakan
+                    berdasarkan kebutuhan nutrisi ternak.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container contact">
+        <h2 class="section-title">Kontak</h2>
+        <p>Email: tawakkal.portfolio@email.com</p>
+        <p>LinkedIn: linkedin.com/in/muhtawakkal</p>
+        <p>Instagram: @tawakkal.dev</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Muh. Tawakkal | Portfolio Website</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e){
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+        .scrollIntoView({
+            behavior:'smooth'
+        });
+    });
+});
+</script>
+
+</body>
+</html>
